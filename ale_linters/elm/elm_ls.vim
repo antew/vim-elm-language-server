@@ -12,7 +12,7 @@ call ale#linter#Define('elm', {
 \   'executable': {b -> ale#node#FindExecutable(b, 'elm_ls', [
 \       'node_modules/.bin/elm-ls',
 \   ])},
-\   'command': '%e --stdio | tee -a "asdf.log"',
+\   'command': '%e --stdio',
 \   'project_root': function('elm_ls#GetRootDir'),
 \   'language': 'elm',
 \   'initialization_options': {'runtime': 'node'},
