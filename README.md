@@ -20,6 +20,7 @@ This plugin adds support for linting through [ALE](https://github.com/w0rp/ale) 
 $ git clone https://github.com/elm-tooling/elm-language-server.git
 $ cd elm-language-server
 $ npm install
+$ npm run compile
 $ npm link
 ```
 
