@@ -15,9 +15,14 @@ This plugin adds support for linting through [ALE](https://github.com/w0rp/ale) 
 
 ## elm-language-server
 
-I recommend installing it globally, `npm i -g elm-language-server`
-
-For more info [see here](https://github.com/elm-tooling/elm-language-server)
+[elm-language-server](https://github.com/elm-tooling/elm-language-server) is not currently published as an npm package, to install it you can run:
+```
+$ git clone https://github.com/elm-tooling/elm-language-server.git
+$ cd elm-language-server
+$ npm install
+$ npm run compile
+$ npm link
+```
 
 # Configuration
 
