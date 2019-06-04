@@ -2,7 +2,7 @@
 
 * Note: This will likely be merged into ALE itself at some point, this repo is mainly for testing before that happens.
 
-This plugin adds support for linting through [ALE](https://github.com/w0rp/ale) with [elm-language-server](https://github.com/razzeee/elm-language-server).
+This plugin adds support for linting through [ALE](https://github.com/w0rp/ale) with [elm-language-server](https://github.com/elm-tooling/elm-language-server).
 
 # Installation
 
@@ -15,7 +15,7 @@ This plugin adds support for linting through [ALE](https://github.com/w0rp/ale) 
 
 ## elm-language-server
 
-[elm-language-server](https://github.com/Razzeee/elm-language-server) is not currently published as an npm package, to install it you can run:
+[elm-language-server](https://github.com/elm-tooling/elm-language-server) is not currently published as an npm package, to install it you can run:
 ```
 $ git clone https://github.com/elm-tooling/elm-language-server.git
 $ cd elm-language-server
