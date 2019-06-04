@@ -44,3 +44,9 @@ You can set the path to `elm` and `elm-format` if desired, it defaults to assumi
 let g:ale_elm_ls_elm_format_path = "/path/to/elm-format"
 let g:ale_elm_ls_elm_path = "/path/to/elm"
 ```
+
+Disable ale's `elm` linter to avoid duplicate compile error messages:
+
+```
+let g:ale_linters_ignore = { 'elm': ['make'] }
+```
