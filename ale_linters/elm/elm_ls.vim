@@ -2,6 +2,7 @@ call ale#Set('elm_ls_executable', 'elm-language-server')
 call ale#Set('elm_ls_use_global', get(g:, 'ale_use_global_executables', 1))
 call ale#Set('elm_ls_elm_path', 'elm')
 call ale#Set('elm_ls_elm_format_path', 'elm-format')
+call ale#Set('elm_ls_elm_test_path', 'elm-test')
 
 function! elm_ls#GetRootDir(buffer) abort
   let l:elm_json = ale#path#FindNearestFile(a:buffer, 'elm.json')
@@ -13,6 +14,7 @@ function! elm_ls#GetOptions(buffer) abort
     \    'runtime': 'node',
     \    'elmPath': ale#Var(a:buffer, 'elm_ls_elm_path'),
     \    'elmFormatPath': ale#Var(a:buffer, 'elm_ls_elm_format_path'),
+    \    'elmTestPath': ale#Var(a:buffer, 'elm_ls_elm_test_path'),
     \ }
 endfunction
 

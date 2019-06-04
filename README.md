@@ -39,10 +39,11 @@ Or, you can configure ALE to use a globally installed version for all executable
 let g:ale_use_global_executables = 1
 ```
 
-You can set the path to `elm`,`elm-format` and `elm-language-server` if desired, it defaults to assuming executables are avilable on the `$PATH`.
+You can set the path to `elm`, `elm-format`, `elm-test` and `elm-language-server` if desired, it defaults to assuming executables are avilable on the `$PATH`.
 ```
-let g:ale_elm_ls_elm_format_path = "/path/to/elm-format"
 let g:ale_elm_ls_elm_path = "/path/to/elm"
+let g:ale_elm_ls_elm_format_path = "/path/to/elm-format"
+let g:ale_elm_ls_elm_test_path = "/path/to/elm-test"
 let g:ale_elm_ls_executable = "/path/to/elm-language-server"
 ```
 
