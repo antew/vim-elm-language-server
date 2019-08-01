@@ -1,3 +1,7 @@
+# DEPRECATED - Now Built into ALE #
+
+Install [`ale`](https://github.com/w0rp/ale) and use `elm_ls` linter. See [elm-language-server README](https://github.com/elm-tooling/elm-language-server#ale) and [ale README](https://github.com/w0rp/ale#usage) for usage instructions.
+
 # Vim support for Elm Language Server
 
 * Note: This will likely be merged into ALE itself at some point, this repo is mainly for testing before that happens.
